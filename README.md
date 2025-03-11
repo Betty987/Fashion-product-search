@@ -47,6 +47,25 @@ Install the required dependencies using the following command:
 pip install -r requirements.txt
 ```
 
+### Dataset
+
+The dataset used in VogueVista, flipkart_fashion_products_dataset.json, is a collection of fashion product listings sourced from Flipkart, a popular Indian e-commerce platform.To optimize performance, the dataset is trimmed to the first 10,000 rows. The dataset includes the following fields:
+
+- Add the dataset(flipkart_fashion_products_dataset.json) to the data folder inside the project folder-[flipkart_fashion_products_dataset.json](https://drive.google.com/file/d/16AmyCJbpEABIqT24ev5H_JgWwfzSMuku/view?usp=sharing)
+- Add cached embeddings(embeddings_cache.json) to the project folder-[embeddings_cache.json](https://drive.google.com/file/d/1ZQ3DpxMR69r45yJT5vP1wp4ayg7sP9Ye/view?usp=sharing)
+
+- `_id`: Unique product identifier
+- `title`: Product title
+- `description`: Product description
+- `brand`: Product brand
+- `category`: Product category
+- `sub_category`: Product sub-category
+- `images`: Image URLs
+- `actual_price`: Original price
+- `selling_price`: Discounted price
+- `discount`: Discount percentage
+- `average_rating`: Customer rating
+
 ### Neo4j Configuration
 
 1. Download and install Neo4j: [Neo4j Download](https://neo4j.com/download/)
@@ -78,23 +97,6 @@ The web app utilizes Sentence Transformers (SBERT), a transformer-based model op
 1. Contextual Insight: SBERT grasps the deeper meaning of text, making it perfect for semantic search applications.
 2. Performance: It offers computational efficiency in creating embeddings and assessing them with cosine similarity.
 3. Ready-to-Use Models: Pretrained models trained on varied datasets eliminate the need for extensive custom training.
-
-### Dataset
-
-The dataset used in VogueVista, flipkart_fashion_products_dataset.json, is a collection of fashion product listings sourced from Flipkart, a popular Indian e-commerce platform.To optimize performance, the dataset is trimmed to the first 10,000 rows. The dataset includes the following fields:
-
-- `_id`: Unique product identifier
-- `title`: Product title
-- `description`: Product description
-- `brand`: Product brand
-- `category`: Product category
-- `sub_category`: Product sub-category
-- `images`: Image URLs
-- `actual_price`: Original price
-- `selling_price`: Discounted price
-- `discount`: Discount percentage
-- `average_rating`: Customer rating
-
 
 ### Knowledge Graph Integration
 
@@ -130,6 +132,6 @@ The knowledge graph uses Neo4j to model relationships between entities, such as:
 ├── README.md               # documentation
 ```
 ### Demo
-https://drive.google.com/file/d/12i6b-zmHwhwfYJXOHz2tr09oiyGpzNhN/view?usp=sharing
+[Demo](https://drive.google.com/file/d/12i6b-zmHwhwfYJXOHz2tr09oiyGpzNhN/view?usp=sharing)
 
 
