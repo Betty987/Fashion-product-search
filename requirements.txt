@@ -1,0 +1,38 @@
+# Core dependencies
+streamlit
+pandas
+numpy
+sentence-transformers
+transformers
+torch
+torchvision
+neo4j
+python-dotenv
+scikit-learn
+
+# Additional dependencies commonly required
+pyarrow  # For pandas
+pytz  # For pandas
+python-dateutil  # For pandas
+requests  # For transformers/sentence-transformers
+tqdm  # For transformers/sentence-transformers
+pyyaml  # For transformers
+filelock  # For transformers
+huggingface-hub  # For transformers
+regex  # For transformers
+safetensors  # For transformers
+tokenizers  # For transformers
+packaging  # General dependency
+pillow  # For torchvision
+typing_extensions  # For newer libraries
+scipy  # For scikit-learn
+threadpoolctl  # For scikit-learn
+joblib  # For scikit-learn
+
+# Streamlit UI dependencies
+altair
+pydeck
+rich
+toml
+tornado
+watchdog  # Optional, for file watching on macOS
